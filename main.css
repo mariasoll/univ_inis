@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    min-width: 140px;
+    flex-grow: 1;
+}
+
+li a {
+    display: block;
+    text-decoration-line: none;
+    text-align: center;
+    transition-duration: 200ms;
+}
+
+span {
+    color: #A2A4AB;
+}
+
+header {
+    padding: 10px 0;
+    border-top: 25px solid #0D1A3E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header img {
+    width: 140px;
+}
+
+header img:hover,
+button:hover {
+    cursor: pointer;
+}
+
+header h1 {
+    margin: 0;
+    color: #173668;
+}
+
+nav a {
+    padding: 15px 0;
+    color: #07163D;
+    background-color: #7490B8;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #55698C;
+}
+
+#content img {
+    width: 100%;
+}
+
+#description-block-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description-block {
+    width: 600px;
+    padding: 15px;
+    margin: 25px;
+    border: 2px solid #0D193F;
+    border-radius: 15px;
+}
+
+.description-block h2 {
+    margin: 0 0 16px;
+    text-align: center;
+    color: #1B062E;
+}
+
+footer a {
+    color: white;
+    background-color: #0D193F;
+    padding: 20px 0;
+}
+
+footer a:hover {
+    background-color: #2C3758;
+}
+
+#line {
+    height: 35px;
+    background-color: #7490B8;
+}
+
+#compressed {
+    margin: 0 100px;
+}
+
+#compressed h2,
+#data-block-wrapper h2 {
+    color: #1B062E;
+}
+
+#card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 325px;
+    margin: 15px;
+    border: 3px solid #0D193F;
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+}
+
+.card-description {
+    margin: 16px;
+}
+
+.card-description h2 {
+    margin: 16px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 16px;
+}
+
+.button-container button,
+#control button,
+#button-container-side button {
+    padding: 8px;
+    border-style: none;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #0D193F;
+}
+
+.button-container button:hover,
+#control button:hover,
+#button-container-side button:hover {
+    background-color: #2C3758;
+    transition-duration: 200ms;
+}
+
+#quick-view-container {
+    padding: 10px 100px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #7490B8;
+}
+
+#quick-view-container img {
+    width: 200px;
+}
+
+.card-shirt {
+    margin: 5px;
+    display: inline-flex;
+}
+
+#wrapper {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#wrapper span,
+#info > span {
+    display: block;
+    margin-bottom: 8px;
+    color: #1B062E;
+}
+
+.card-description span,
+#wrapper span:nth-child(2),
+#info span:nth-child(2) {
+    font-size: 16px;
+}
+
+#info > span:first-child {
+    font-size: 24px;
+}
+
+#info span:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+#data-block-wrapper {
+    margin: 75px 200px;
+}
+
+#data-block {
+    display: flex;
+}
+
+#data-block img {
+    width: 300px;
+    max-height: 350px;
+}
+
+#info {
+    margin: 10px 0 10px 30px;
+}
+
+#data-block-side,
+#data-block-color {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#data-block-side span,
+#data-block-color span {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+#button-container-side button,
+#button-container-color button {
+    margin: 5px;
+    font-family: sans-serif;
+}
+
+#button-container-color button {
+    padding: 8px;
+    border: 2px solid #0D193F;
+    border-radius: 5px;
+}
+
+.active:hover {
+    color: white;
+    transition-duration: 200ms;
+}

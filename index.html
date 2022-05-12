@@ -1,69 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>LabWork1 — Home</title>
-        <link rel="stylesheet" href="./main.css">
-    </head>
-    <body>
-        <header>
-            <img src="./resources/main/logo.png" alt="Logo">
-            <h1>Инженерная психология (ИнИС)</h1>
-        </header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./t-shirts.html">T-Shirts</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Hoodies</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Create Your Own</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">About Us</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Your Account</a>
-                </li>
-            </ul>
-        </nav>
-        <div id="content">
-            <img src="./resources/main/home.png" alt="Home">
-            <div id="description-block-container">
-                <div class="description-block">
-                    <h2>Мы не поставляем майки. Нас нет.</h2>
-                    <span>Мы продаём майки. Мы любим делать это, но имейте в виду, что у нас нет инфраструктур, цепи
-                          поставок или производства, чтобы на самом деле их изготавливать или поставлять. Но эти майки
-                          всегда будут в вашем воображении. :-)</span>
-                </div>
-                <div class="description-block">
-                    <h2>Создай майку, но помоги нам сделать это.</h2>
-                    <span>Хоть мы и не продаём майки, но мы даём вам возможность создать свою собственную! На самом деле.
-                          Мы действительно нуждаемся в вашей помощи, чтобы сделать это. Если ты можешь создать интерфейс,
-                          в котором можно создать свой дизайн майки, это будет отлично!</span>
-                </div>
-            </div>
-        </div>
-        <footer>
-            <ul>
-                <li>
-                    <a href="./not_implemented.html">Contact Us</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Site Map</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Careers</a>
-                </li>
-                <li>
-                    <a href="./not_implemented.html">Reviews</a>
-                </li>
-            </ul>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!-- turn off pinch zoom https://stackoverflow.com/questions/37379694/javascript-how-to-stop-pinch-zoom-multi-touch-input-attacks -->
+    <link rel="stylesheet" href="inputstyle.css" />
+    <title>HW2 SSUI</title>
+  </head>
+  <!-- you should not need to edit this fine for HW2, except to test different numbers of div's-->
+  <body>
+    <!-- your code should work for any number of divs -->
+    <div id="workspace">
+      <div
+        class="target"
+        style="top: 120px; left: 20px; width: 60px; height: 100px"
+      ></div>
+
+      <div
+        class="target"
+        style="top: 250px; left: 50px; width: 150px; height: 80px"
+      ></div>
+
+      <div
+        class="target"
+        style="top: 370px; left: 30px; width: 100px; height: 100px"
+      ></div>
+    </div>
+
+    <!-- script -->
+    <script src="input.js"></script>
+  </body>
 </html>

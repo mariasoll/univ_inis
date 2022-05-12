@@ -110,18 +110,5 @@ obj2.style.left = e.targetTouches[0].pageX - obj2.offsetWidth / 2 + 'px';
 }
 })
 
-document.addEventListener('keydown', function(e) {
-let str = e.code;
-if (str[0] != 'F')
-{
-str = str[str.length - 1];
-let code = Number(str);
-if (code >= 0 && code < 10)
-{
-draggableElements[0].style.width = (10 * code) + 'px';
-}
-}
-});
-
 
 }
